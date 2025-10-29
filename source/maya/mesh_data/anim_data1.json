@@ -1,0 +1,122 @@
+{
+    "translateX": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": -63.765844382390995,
+            "out_tangent": -63.765851690563544
+        },
+        {
+            "time": 10.0,
+            "value": 5.999999999999998,
+            "in_tangent": 30.96375653207353,
+            "out_tangent": 30.96375653207353
+        },
+        {
+            "time": 20.0,
+            "value": 12.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ],
+    "translateY": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 10.0,
+            "value": 6.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 20.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ],
+    "translateZ": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 10.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 20.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ],
+    "rotateX": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 10.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 20.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ],
+    "rotateY": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 10.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 20.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ],
+    "rotateZ": [
+        {
+            "time": 0.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 10.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        },
+        {
+            "time": 20.0,
+            "value": 0.0,
+            "in_tangent": 0.0,
+            "out_tangent": 0.0
+        }
+    ]
+}

@@ -153,26 +153,3 @@ def duplicate_NX(asset_data: unreal.AssetData):
         
     return (duplication_sucess, dest_asset_path)
 
-
-def rename_NX():
-    """Remove _NX suffix"""
-    # nx_assets = get_assets_in_folder(path, NX=True, recursive=True)
-    # assets = filter_by_class(assets, unreal.StaticMesh)
-    
-    nx_assets = unreal.EditorUtilityLibrary.get_selected_assets()
-    for a in nx_assets:  
-        print(type(a))  
-
-        asset_name = a.get_name()    
-        asset_folder = unreal.Paths.get_path(a.get_path_name())
-        # Check if this asset is a Texture. Then check if it's name starts with T_. If not, prepend T_ to the name.
-        
-        if asset_name.startswith("Mesh"):
-            new_asset_name = asset_name.lstrip('Mesh')
-            asset_folder = unreal.Paths.get_path(a.get_path_name())
-
-            unreal.log_error(f"Renaming {a.get_path_name()} to {asset_folder + new_asset_name}")
-            unreal.EditorAssetLibrary.rename_asset(a.get_path_name(), asset_folder + new_asset_name)
-
-
-rename_NX()
