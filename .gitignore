@@ -1,6 +1,9 @@
 *.pyc
 __pycache__/*
 
+.idea/
+.vscode/
+
 # Visual Studio 2015 user specific files
 .vs/
 
